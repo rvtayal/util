@@ -116,11 +116,11 @@ if ! shopt -oq posix; then
 fi
 
 # aliases for easy stuff
-alias lls="ls -latr --color=auto --group-directories-first -X --ignore=.*"
+alias lls="ls -lat --color=auto --group-directories-first -X --ignore=.*"
 alias ls="ls  --color=auto --group-directories-first -X"
-alias lsa="ls -latr --color=auto --group-directories-first -X"
+alias lsa="ls -lat --color=auto --group-directories-first -X"
 alias ls.="ls -d .* --color=auto"
-alias lls.="ls -d -latr .*"
+alias lls.="ls -d -lat .*"
 alias reset="source ~/.bashrc"
 alias editbash="vim ~/.bashrc"
 alias editvim="vim ~/.vimrc"
